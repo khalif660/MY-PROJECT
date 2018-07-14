@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+    
+    .login-form {
+    padding: 20px;
+}
+
+.login-form form {
+    border: 1px solid chartreuse;
+    padding: 20px 0;
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+
+.login-form form h3 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.login-form form .control {
+    margin: 0 20px 10px;
+}
+
+.login-form form label {
+    display: block;
+}
+
+.login-form form input, textarea {
+    border: none;
+    border-bottom: 1px solid chartreuse;
+    outline: none;
+    padding: 4px 0px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.login-form form input:focus {
+    border-color: forestgreen;
+}
+
+.login-form form button {
+    width: 100%;
+    background-color: chartreuse;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+}
+
+  </style>
+</head>
+<body>
+  <h4><a href="index.html">for enquires</a></h4>
+<div class="login-form">
+  <form action="">
+    <h3><i class="login-icon icon-lock2"></i></h3>
+    <div class="control">
+      <label for="username">Username</label>
+      <input type="text" id="username" minlength="8" maxlength="15">
+    </div>
+    <div class="control">
+      <label for="password">Password</label>
+      <input type="password" id="password">
+    </div>
+    <div class="control">
+      <button>Login</button>
+    </div>
+    <div class="control">
+      <a href="register.html">Register</a>
+    </div>
+  </form>
+</div>
+</body>
+</html>
